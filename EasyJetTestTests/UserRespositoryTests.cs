@@ -1,6 +1,7 @@
 ﻿using System;
 using Interview;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Interview.Model;
 
 namespace EasyJetTestTests
 {
@@ -18,7 +19,7 @@ namespace EasyJetTestTests
         public void TestSave()
         {
             var newId = Guid.NewGuid();
-            _userRepository.Save(new Model.User() { Id = newId });
+            _userRepository.Save(new User() { Id = newId });
             var item = _userRepository.Get(newId);
             Assert.IsNotNull(item);
         }
