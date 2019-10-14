@@ -36,6 +36,15 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "EasyJetTest/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/EasyJetTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyJetTest.dll": {}
+        }
       }
     }
   },
@@ -283,10 +292,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "EasyJetTest/1.0.0": {
+      "type": "project",
+      "path": "../Interview/EasyJetTest.csproj",
+      "msbuildProject": "../Interview/EasyJetTest.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "EasyJetTest >= 1.0.0",
       "MSTest.TestFramework >= 2.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -324,7 +339,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sgujarlapudi\\Documents\\GitHub\\EasyJetTest\\Interview\\EasyJetTest.csproj": {
+              "projectPath": "C:\\Users\\sgujarlapudi\\Documents\\GitHub\\EasyJetTest\\Interview\\EasyJetTest.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
