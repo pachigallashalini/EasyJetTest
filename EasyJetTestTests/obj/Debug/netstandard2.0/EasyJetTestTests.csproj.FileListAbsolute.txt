@@ -4,3 +4,9 @@ C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\ne
 C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\netstandard2.0\EasyJetTestTests.csproj.CoreCompileInputs.cache
 C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\netstandard2.0\EasyJetTestTests.AssemblyInfoInputs.cache
 C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\netstandard2.0\EasyJetTestTests.AssemblyInfo.cs
+C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\bin\Debug\netstandard2.0\EasyJetTestTests.pdb
+C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\bin\Debug\netstandard2.0\Interview.dll
+C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\bin\Debug\netstandard2.0\Interview.pdb
+C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\netstandard2.0\EasyJetTestTests.csproj.CopyComplete
+C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\netstandard2.0\EasyJetTestTests.dll
+C:\Users\sgujarlapudi\Documents\GitHub\EasyJetTest\EasyJetTestTests\obj\Debug\netstandard2.0\EasyJetTestTests.pdb

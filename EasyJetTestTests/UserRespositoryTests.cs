@@ -27,13 +27,28 @@ namespace EasyJetTestTests
         [TestMethod]
         public void TestGet()
         {
-            
+            var newId = Guid.NewGuid();
+            AddUsers(newId);
+            var item = _userRepository.Get(newId);
+            Assert.IsNotNull(item);
         }
 
         [TestMethod]
         public void TestDelete()
         {
-            
+            var newId = Guid.NewGuid();
+            AddUsers(newId);
+            _userRepository.Delete(newId);
+            var item = _userRepository.Get(newId);
+            Assert.IsNull(item);
+        }
+
+        private void AddUsers(Guid newId)
+        {
+            _userRepository.Save(new User() { Id = newId });
+            _userRepository.Save(new User() { Id = Guid.NewGuid() });
+            _userRepository.Save(new User() { Id = Guid.NewGuid() });
+            _userRepository.Save(new User() { Id = Guid.NewGuid() });
         }
     }
 }
