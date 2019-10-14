@@ -17,7 +17,10 @@ namespace EasyJetTestTests
         [TestMethod]
         public void TestSave()
         {
-           
+            var newId = Guid.NewGuid();
+            _userRepository.Save(new Model.User() { Id = newId });
+            var item = _userRepository.Get(newId);
+            Assert.IsNotNull(item);
         }
 
         [TestMethod]
